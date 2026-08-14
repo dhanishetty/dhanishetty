@@ -1,10 +1,20 @@
-# Dhanishetty
+# Rajesh Dhanishetty
 
-**Azure Cloud & DevOps engineer, working on AI workloads.**
+**Azure Cloud Engineer — security governance, reliability engineering, and cost optimization.**
 
-I work along the whole path from infrastructure to model — provisioning Azure with Bicep and ARM, running containers on AKS, wiring CI/CD pipelines, and deliberately breaking things with Chaos Studio to see what holds. On the other side of that path I fine-tune LLMs, ship Azure AI Services, and build computer vision pipelines.
+I build and operate Azure infrastructure for Microsoft's platform, working through BrickRed Systems. Recent work: cut regional health-validation costs by ~70%, and eliminated stored credentials from deployment workloads by moving them to managed identities.
 
-The repositories below are where that work lives: hands-on labs, working reference notes, and end-to-end projects.
+Engineer with 10+ years across automotive product development, now focused full-time on Azure cloud, DevOps and reliability engineering.
+
+---
+
+### What I work on
+
+- **Security & governance** — subscription-scoped Azure Policy with `DeployIfNotExists` remediation, enforcing Cosmos DB security standards org-wide with automated compliance
+- **Keyless infrastructure** — migrated deployment-script workloads off stored credentials to managed identity authentication
+- **Cost optimization** — replaced high-cost chaos experiments with a lightweight Azure Chaos timed-delay design in Bicep, cutting regional validation costs by ~70%
+- **Reliability & observability** — synthetic traffic generation, OpenTelemetry and Azure Monitor instrumentation, operational dashboards and alerting
+- **Regional expansion** — capacity and quota planning, feature-flagged phased rollouts, post-deployment health validation
 
 ---
 
@@ -21,29 +31,30 @@ The repositories below are where that work lives: hands-on labs, working referen
 
 ### What I work with
 
-**Cloud & platform** — Azure, Azure Kubernetes Service (AKS), Kubernetes, Docker, Azure Container Instances
+**Cloud & platform** — Azure, Azure Monitor, Azure Chaos Studio, Azure DevOps
 
-**Infrastructure as code** — Bicep, ARM templates (JSON)
+**Infrastructure as code** — Bicep, ARM templates
 
-**CI/CD** — Azure Pipelines, GitHub Actions
+**CI/CD** — Azure DevOps Classic and YAML pipelines, GitHub Actions
 
-**Reliability & observability** — Azure Chaos Studio, Azure Monitor, Grafana, Cilium network policies
+**Reliability & observability** — OpenTelemetry, synthetic monitoring, alerting, dashboards
 
-**Identity & security** — Microsoft Entra, Azure RBAC, workload identity, OIDC
+**Governance & security** — Azure Policy, managed identities, Microsoft Entra, Azure RBAC
 
-**AI / ML** — LoRA & QLoRA fine-tuning, Hugging Face Transformers & PEFT, Weights & Biases, Azure AI Services, OpenAI API, YOLOv8, OpenCV, scikit-learn
+**Data & containers** — Cosmos DB, Kubernetes, Docker
 
-**Languages & tools** — Python, FastAPI, Bash, YAML, Git
+**AI / ML (hands-on projects)** — LoRA & QLoRA fine-tuning, Hugging Face Transformers & PEFT, Weights & Biases, Azure AI Services, OpenAI API
 
----
-
-### A few things worth opening
-
-- **[Fine-tuning five task types, end to end](https://github.com/dhanishetty/AI-Engineering-LLMs/tree/main/1_LLM_Fine-Tuning)** — Phi-3, Llama-3, ALBERT, BERT and Flan-T5, each taken from training through adapter merging to evaluation, with Weights & Biases run tracking.
-- **[AKS labs](https://github.com/dhanishetty/Azure/tree/main/AKS-LABS)** — networking, observability and security on AKS, including Cilium network policies with FQDN and L7 filtering.
-- **[Chaos engineering on Azure](https://github.com/dhanishetty/Azure/tree/main/Chaos%20Engineering)** — fault injection design, dual-fault sequences, and monitoring systems under load.
-- **[Azure AI Services](https://github.com/dhanishetty/AI-Engineering-LLMs/tree/main/OpenAI/Azure_AI_Services)** — runnable apps for OCR, image analysis, named entity recognition and sentiment analysis.
+**Languages** — C#, Python, PowerShell, Bash, YAML
 
 ---
 
-📫 dhanishetty@gmail.com
+### Certifications
+
+Microsoft Certified: Azure Fundamentals · Azure Developer Associate · Azure Administrator Associate
+
+---
+
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/rajeshdhanishetty/) · [Hugging Face](https://huggingface.co/dhanishetty) · dhanishetty@gmail.com
