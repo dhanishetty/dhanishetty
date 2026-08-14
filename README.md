@@ -1,4 +1,4 @@
-# Dhani Shetty
+# Dhanishetty
 
 **Azure Cloud & DevOps engineer, working on AI workloads.**
 
